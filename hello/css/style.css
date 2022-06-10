@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body { font-family:"맑은 고딕"Arial, Helvetica, sans-serif; background:#efe5e5;}
+
+#wrap {margin:auto; width:1080px; }
+
+header:after, ul:after, .gnblistBox:after {display:block; content:''; clear:both;}
+
+header{ padding:30px; }
+header h1 {float:left;}
+header nav {float:right;}
+
+.gnb {width:860px;}
+.gnb > li {float:left; width:16%; text-align: center; line-height: 40px;}
+.gnb > li:last-child {width: 20%;}
+
+.gnb > li > a {color:black; font-weight:700; font-size: 15px;}
+.gnb > li > a:hover{color:#FFA300;}
+
+.gnblistBox {display:none; position:absolute; padding:20px 0; width:860px; border:1px solid #ccc;  background: #fff;}
+    .gnblist {  float:left; width:16%; text-align: center; line-height: 40px; border-right:1px solid #ccc; height:145px;}
+    .gnblist:last-child {width: 20%; border-right: none;}
+
+    .gnblist li {height:26px; }
+    .gnblist > li.gnblist_title {font-size: 13px; font-weight:bold;}
+    .gnblist li a {font-size:11px; color:grey; }
+    .gnblist li a:hover {color:#FFA300;}
+
+#slider {position:relative; width:1080px; height:570px; overflow: hidden;}
+#slider ul {height:500px; overflow: hidden;}
+#slider li {float:left;}
+
+#slider .btns {}
+
+
+
+#content {margin:50px 0; padding: 30px; border:1px solid #ccc;}
+#content p {padding:10px;}
+
+footer {padding:50px 0; border-top:1px solid grey;}
+footer small {color:grey; font-size: 0.8em; }
+
+
